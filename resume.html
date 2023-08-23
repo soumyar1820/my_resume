@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+
+    .container{
+        position: relative;
+        left: 106px;
+    }
+    @media (min-width:390px){
+            #box-1{
+                display:block;
+            }
+                
+               
+        }
+        @media (min-width:250px) and (max-width:500px){
+            #box-2{
+                /* display:block; */
+            
+            }
+        }
+        @media (min-width:500px) and (max-width:700px){
+            #box-3{
+                /* display:block; */
+
+            }
+        }
+        @media (min-width:700px){
+            #box-4{
+                /* display:block; */
+            }
+        }
+    .upper {
+        background-color: rgb(3, 5, 48);
+        border: 2px solid rgb(22, 0, 0);
+        position: absolute;
+        top: 27px;
+        left: 13px;
+        right: 10px;
+        height: 170px;
+        width: 1265px;
+
+
+    }
+
+    .left {
+        border: 3.2px solid rgb(0, 0, 0);
+        position: absolute;
+        right: 1120px;
+        left: -34px;
+        top: 210px;
+        height: 1040px;
+        padding: 20px 5px;
+        width: 401px;
+
+    }
+
+
+    .right {
+        border: 2px solid black;
+        position: absolute;
+        right: 9px;
+        left: 389px;
+        top: 210px;
+        width: 911px;
+    }
+
+    .upper img {
+        height: 140px;
+        border-radius: 5px;
+        position: relative;
+        left: 100px;
+        background-color: #fff;
+        top: 15px;
+        border: 4px solid white;
+
+    }
+
+    .text {
+        position: relative;
+        color: rgb(210, 222, 241);
+        font-size: 45px;
+        left: 294px;
+        top: -120px;
+
+    }
+
+    .text h6 {
+        font-size: 20px;
+    }
+
+    .info {
+        /* border: 2px solid black; */
+    }
+    .info h2{
+        border: 2px solid grey;
+        background-color: grey;
+        padding: 2px 20px;
+        width: 150px;
+        border-radius: 5px;
+        position: relative;
+        top: 5px;
+        left: 10px;
+        color: rgb(3, 3, 94);
+
+    }
+
+    .skills {
+        position: relative;
+        right: -2px;
+        top: 6px;
+        /* border: 2px solid black; */
+
+    }
+
+    .skills h3 {
+        font-size: 27px;
+        /* font-style: italic; */
+        background-color: grey; 
+        padding: 2px 20px;
+        width: 90px;
+        border-radius: 5px;
+        position: relative;
+        top: 5px;
+        left: 10px;
+        color: rgb(3, 3, 94);      
+
+    }
+
+    .btn1 {
+        font-size: 15px;
+        margin: 5px 4px;
+        background-color: rgb(184, 184, 184);
+
+
+
+    }
+
+    .info li {
+        font-size: 20px;
+        color: rgb(0, 0, 9);
+        
+    }
+
+    .interest {
+        position: relative;
+        /* border: 2px solid black; */
+        top: 8px;
+        font-size: 20px;
+        font-style: italic;
+        /* background-color: grey; */
+    }
+    .interest h2{
+        background-color: grey;
+        width: 140px;
+        padding: 2px 20px;
+
+        border-radius: 5px;
+        position: relative;
+        top: 5px;
+        left: 10px;
+        color: rgb(3, 3, 94);
+
+    }
+
+    .btn2 {
+        font-size: 15px;
+        margin: 5px 4px;
+        background-color: rgb(184, 184, 184);
+    }
+
+    .language {
+        position: relative;
+        /* border: 2px solid black; */
+        top: 8px;
+        font-size: 19px;
+
+
+    }
+    .language h2{
+        background-color: grey;
+        width: 160px;
+        padding: 2px 20px;
+        border-radius: 5px;
+         position: relative;
+        top: 5px;
+        left: 10px;
+        color: rgb(3, 3, 94);
+
+
+
+    }
+
+    .edu {
+        border: 2px solid black;
+        padding: 0px 20px;
+
+    }
+    .edu h1{
+        color: rgb(3, 3, 94);background-color: grey;
+        width: 210px;
+        padding: 2px 10px;
+        border-radius: 5px;
+        position: relative;
+        top: 5px;
+        left: -14px;
+        color: rgb(3, 3, 94);
+        
+    }
+    .project{
+        border: 2px solid black;
+        padding: 0px 20px;
+
+
+
+
+    }
+    .project h1{
+
+        color: rgb(3, 3, 94);background-color: grey;
+        width: 210px;
+        padding: 2px 10px;
+        border-radius: 5px;
+        position: relative;
+        top: 5px;
+        left: -14px;
+        color: rgb(3, 3, 94);
+    }
+
+    .project li{
+        font-size: 20px;
+         /* list-style-type: none; */
+         text-align: left;
+         /* border: 2px solid red; */
+         position: relative;
+         left: 10px;
+    }
+
+    .acheive{
+        border: 2px solid black;
+        padding: 0px 20px;
+
+    }
+    .acheive h1{
+        color: rgb(3, 3, 94);background-color: grey;
+        width: 210px;
+        padding: 2px 10px;
+        border-radius: 5px;
+        position: relative;
+        top: 5px;
+        left: -14px;
+        color: rgb(3, 3, 94);
+    }
+    .acheive li{
+        font-size: 18px;
+    }
+</style>
+
+<body>
+    <div class="container">
+
+        <div class="upper">
+            <img src="img.jpg" alt="">
+
+            <div class="text">
+                <b>Soumya Rathore</b>
+
+                <h6>Frontend developer, completed B.Tech.I m a quick learner and always ready to learn new things.
+                </h6>
+
+            </div>
+
+        </div>
+
+        <div class="left">
+            <div class="info">
+                <h2><i>Contact Info</i> :-</h2>
+                <ul>
+                    <li><b> E-mail -  <p>soumya.rathore8871@gmail.com</p><br></li>
+                    <li><b> Contact No. - <p>6260653187<br></p></li>
+                    <li><b> Date Of Birth - <p>20 Sept. 2001</p><br></li>
+                    <li><b> LinkedIn -  <p>https://www.linkedin.com/in/soumya-rathore-62a0931b6/<br></p></li>
+                </ul>
+            </div>
+            <div class="skills">
+                <h3><i> Skills</i> :-</h3>
+                <button class="btn1"><b> OOPs</b></button>
+                <button class="btn1"><b>Python</b></button>
+                <button class="btn1"><b>HTML</b></button>
+                <button class="btn1"><b>CSS</b></button>
+                <button class="btn1"><b>JavaScript</b></button>
+                <button class="btn1"><b>React</b></button>
+                <button class="btn1"><b>DBMS</b></button>
+                <button class="btn1"><b>MYSQL</b></button>
+                <button class="btn1"><b>github</b></button>
+                <button class="btn1"><b>basic C++</b></button>
+                <button class="btn1"><b>Basic Ruby</b></button>
+            </div>
+
+            <div class="interest">
+                <h2><i> Interests</i> :-</h2>
+                <button class="btn2"><b> Sketching and Painting</b></button>
+                <button class="btn2"><b>Singing</b></button>
+                <button class="btn2"><b>Listening Music</b></button>
+            </div>
+            <div class="language">
+                <h2><i> Languages</i> :-</h2>
+                <ul>
+                    <li><b> English</b></li>
+                    <li><b>Hindi</b></li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="right">
+
+            <div class="edu">
+                <h1>Qualification :-</h1>
+                <div class="tech">
+                    <h2>B.Tech in Computer Science Engineering (2019-2023){8.15 cgpa}</h2>
+                    <h3>Shivaji Rao Kadam Group Of Technology Indore(M.P.)</h3>
+                    <br>
+                    <h2>12th (M.P. Board) -- 70%</h2>
+                    <h3>Scholars' Den School Khandwa(M.P.)</h3>
+                    <br>
+                    <h2>10th (C.B.S.E. Board) -- 75%</h2>
+                    <h3>ST. Joseph's Convent Sr.Sec. School Khandwa(M.P.)</h3>
+                </div>
+
+            </div>
+            <div class="project">
+                <h1>Projects</h1>
+
+                <li>Post Karo:- </li>            
+                (an instagram clone) created using React, nodejs
+                <li>TextUtills:-</li>
+                for applying various operations over the text.
+                <li>Weather Web Application(real-time) :</li>
+                shows the live temperature of any city
+                <li>News Application(real-time)</li>
+                shows news of any country
+                <li>myfood.com</li>
+                an online(responsive) food ordering website
+                <li>This resume is also created by me</li>
+                using HTML and CSS
+                <li>Task Manage Application</li>
+                An application that take task input from user, manages it and export to the user's given file
+
+            </div>
+            <div class="acheive">
+                <h1>Achievements</h1>
+                <li>Certificate for completion of Introduction To Computer Training. (12/2019)</li>Spoken tutorial IIT Bombay
+                <br>
+                <li>Certificate for completion of Introduction To Computer Training. (12/2019)</li>Spoken tutorial IIT Bombay<br>
+                <li>Certificate for completion of CPP training.(11/2020)</li>Spoken tutorial IIT Bombay<br>
+                <li>JOB-A-THON 11.0 Hiring Contest (scored -166.59/175) (07/2022)</li><br>
+                <li>480+ questions solved on codechef and 1-star coder</li><br>
+            </div>
+        </div>
+
+    </div>
+
+</body>
+
+</html>
